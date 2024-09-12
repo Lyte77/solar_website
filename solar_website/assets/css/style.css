@@ -97,13 +97,14 @@
 .navbar a.btn {
     height: 75px;
 }
+.navbar .navbar-brand,
+.navbar a img {
+    height: 60px;
+}
 
 .logo-text{
     color: #6b59e0d8;
 }
-
-
-
 
 
 .navbar .navbar-nav .nav-link {
