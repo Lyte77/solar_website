@@ -34,7 +34,8 @@ def contactPage(request):
 
     else:
         form = ContactForm()
-    return render(request,'solar/contact.html',{'form':form, 
-                                                
-                                                })
+    return render(request,'solar/contact.html',{'form':form,})
+
+def projectsPage(request):
+    return render(request, 'solar/projects.html')
 
