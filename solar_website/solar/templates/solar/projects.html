@@ -14,110 +14,183 @@
                 <ul class="list-inline mb-5" id="portfolio-flters">
                     <li class="mx-2 active" data-filter="*">All</li>
                     <li class="mx-2" data-filter=".first">Solar Panels</li>
-                    <li class="mx-2" data-filter=".second">Wind Turbines</li>
-                    <li class="mx-2" data-filter=".third">Hydropower Plants</li>
+                    <li class="mx-2" data-filter=".second">Inverters</li>
+                    <li class="mx-2" data-filter=".third">CarPort</li>
                 </ul>
             </div>
         </div>
-        <div class="row g-4 portfolio-container wow fadeInUp" data-wow-delay="0.5s">
+        <div class="row g-4 portfolio-container wow fadeInUp " data-wow-delay="0.5s">
             <div class="col-lg-4 col-md-6 portfolio-item first">
                 <div class="portfolio-img rounded overflow-hidden">
-                    <img class="img-fluid" src="{% static 'images/worker1.jpg' %}" alt="">
+                    <video class="img-fluid mb-4" src="{% static 'images/vid-1.mp4' %}" alt="" autoplay="true">
+                        <source src="{% static 'images/vid-1.mp4' %}" type="video/mp4">
+                    </video>
                     <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/worker1.jpgd' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/vid-1.mp4' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                         <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                     </div>
                 </div>
                 <div class="pt-3">
                     <p class="services-header mb-0">Solar Panels</p>
                     <hr class="text-primary w-25 my-2">
-                    <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item first">
                 <div class="portfolio-img rounded overflow-hidden">
-                    <video src="{% static 'images/vid-1.mp4' %}" autoplay="true" height="150%" width="90%"></video>
+                    <img class="img-fluid mb-4" src="{% static 'images/IMG-20240923-WA0013 - Copy.jpg' %}" alt="">
                     <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-5.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="pt-3">
-                    <p class="services-header mb-0">Wind Turbines</p>
-                    <hr class="text-primary w-25 my-2">
-                    <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item third">
-                <div class="portfolio-img rounded overflow-hidden">
-                    <video src="{% static 'images/vid-2.mp4' %}" autoplay="true" height="150%" width="90%"></video>
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="pt-3">
-                    <p class="services-header mb-0">Hydropower Plants</p>
-                    <hr class="text-primary w-25 my-2">
-                    <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item third">
-                <div class="portfolio-img rounded overflow-hidden">
-                    <video src="{% static 'images/vid-2.mp4' %}" autoplay="true" height="150%" width="90%"></video>
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="pt-3">
-                    <p class="services-header mb-0">Hydropower Plants</p>
-                    <hr class="text-primary w-25 my-2">
-                    <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item third">
-                <div class="portfolio-img rounded overflow-hidden">
-                    <video src="{% static 'images/vid-2.mp4' %}" autoplay="true" height="150%" width="90%"></video>
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-4.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="pt-3">
-                    <p class="services-header mb-0">Hydropower Plants</p>
-                    <hr class="text-primary w-25 my-2">
-                    <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 portfolio-item first">
-                <div class="portfolio-img rounded overflow-hidden">
-                    <video src="{% static 'images/vid-3.mp4' %}" autoplay="true" controls height="150%" width="90%"></video>
-                    <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-3.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/IMG-20240923-WA0013 - Copy.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                         <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                     </div>
                 </div>
                 <div class="pt-3">
                     <p class="services-header mb-0">Solar Panels</p>
                     <hr class="text-primary w-25 my-2">
-                    <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid mb-4" src="{% static 'images/IMG-20240923-WA0014 - Copy - Copy.jpg' %}" alt="">
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/IMG-20240923-WA0014 - Copy - Copy.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="services-header mb-0">Solar Panels</p>
+                    <hr class="text-primary w-25 my-2">
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item first">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid mb-4" src="{% static 'images/IMG-20240923-WA0026 - Copy.jpg' %}" alt="">
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/IMG-20240923-WA0026 - Copy.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="services-header mb-0">Solar Panels</p>
+                    <hr class="text-primary w-25 my-2">
+                    
                 </div>
             </div>
             <div class="col-lg-4 col-md-6 portfolio-item second">
                 <div class="portfolio-img rounded overflow-hidden">
-                    <video src="{% static 'images/worker2.mp4' %}" autoplay="true" height="150%" width="90%"></video>
+                    <img class="img-fluid mb-4" src="{% static 'images/IMG-20240923-WA0011 - Copy - Copy.jpg' %}" alt="">
                     <div class="portfolio-btn">
-                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="img/img-600x400-2.jpg" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/IMG-20240923-WA0011 - Copy - Copy.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
                         <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
                     </div>
                 </div>
                 <div class="pt-3">
-                    <p class="services-header mb-0">Wind Turbines</p>
+                    <p class="services-header mb-0">Inverters</p>
                     <hr class="text-primary w-25 my-2">
-                    <h5 class="lh-base">We Are pioneers of solar & renewable energy industry</h5>
+                    
                 </div>
             </div>
+            <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid mb-4" src="{% static 'images/IMG-20240923-WA0012 - Copy - Copy.jpg' %}" alt="">
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/IMG-20240923-WA0012 - Copy - Copy.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="services-header mb-0">Inverters</p>
+                    <hr class="text-primary w-25 my-2">
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid mb-4" src="{% static 'images/IMG-20240923-WA0016 - Copy.jpg' %}" alt="">
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/IMG-20240923-WA0016 - Copy.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="services-header mb-0">Inverters</p>
+                    <hr class="text-primary w-25 my-2">
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid mb-4" src="{% static 'images/IMG-20240923-WA0015 - Copy - Copy.jpg' %}" alt="">
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/IMG-20240923-WA0015 - Copy - Copy.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="services-header mb-0">Inverters</p>
+                    <hr class="text-primary w-25 my-2">
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid mb-4" src="{% static 'images/IMG-20240923-WA0027 - Copy.jpg' %}" alt="">
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/IMG-20240923-WA0027 - Copy.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="services-header mb-0">Inverters</p>
+                    <hr class="text-primary w-25 my-2">
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item second">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <video class="img-fluid mb-4" src="{% static 'images/vid-2.mp4' %}" alt=""></video>
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/IMG-20240923-WA0015 - Copy - Copy.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="services-header mb-0">Inverters</p>
+                    <hr class="text-primary w-25 my-2">
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item third">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid mb-4" src="{% static 'images/IMG-20240923-WA0044.jpg' %}" alt=""></img>
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/IMG-20240923-WA0044.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="services-header mb-0">CarPort</p>
+                    <hr class="text-primary w-25 my-2">
+                    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item third">
+                <div class="portfolio-img rounded overflow-hidden">
+                    <img class="img-fluid mb-4" src="{% static 'images/IMG-20240923-WA0046.jpg' %}" alt=""></img>
+                    <div class="portfolio-btn">
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href="{% static 'images/IMG-20240923-WA0046.jpg' %}" data-lightbox="portfolio"><i class="fa fa-eye"></i></a>
+                        <a class="btn btn-lg-square btn-outline-light rounded-circle mx-1" href=""><i class="fa fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="pt-3">
+                    <p class="services-header mb-0">CarPort</p>
+                    <hr class="text-primary w-25 my-2">
+                    
+                </div>
+            </div>
+            
             
         </div>
     </div>

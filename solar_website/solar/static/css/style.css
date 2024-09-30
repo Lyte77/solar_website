@@ -11,6 +11,10 @@
     --dark: #151202d5;
 } */
 
+body{
+    font-family:"Roboto", sans-serif;
+}
+
 :root{
     --primary:#6b59e0d8;
 }
@@ -50,6 +54,9 @@
     opacity: 1;
 }
 
+nav{
+    font-family:"Roboto", sans-serif;
+}
 
 /*** Button ***/
 .btn {
@@ -112,6 +119,7 @@
     padding: 25px 0;
     color: var(--dark);
     font-size: 15px;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     text-transform: uppercase;
     outline: none;

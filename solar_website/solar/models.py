@@ -7,3 +7,9 @@ class ContactForm(models.Model):
     subject = models.CharField(max_length=200)
     message = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
+
+
+class SocialMediaLinks(models.Model):
+    facebook_link = models.CharField(null=True,blank=True,max_length=200)
+    instagram_link = models.CharField(null=True, blank=True,max_length=200)
+    whatsapp_link = models.CharField(null=True, blank=True, max_length=200)
