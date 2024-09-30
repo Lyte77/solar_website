@@ -67,12 +67,15 @@
           <h6 class="services-header">Contact Us</h6>
           <h1 class="mb-4">Feel Free To Contact Us</h1>
           <div class="row g-3">
-            <h1>Contact Us</h1>
+            
             <div class="col-md-6">
               <div class="form-floating">
                 <form method="post">
                   {% csrf_token %} {{ form.as_p }}
-                  <button type="submit">Submit</button>
+                  <button class="carousel-btn rounded-pill py-3 px-5 animated slideInLeft" type="submit">
+                    <a href="" class="text-white">Contact Us</a>
+                </button>
+
                 </form>
               </div>
             </div>
